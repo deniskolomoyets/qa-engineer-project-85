@@ -1,0 +1,31 @@
+- summary: |
+    Brief description of the test case. Example: Checking user login with an existing username and password
+  requirement: |
+    The requirement under test. For example: When entering a valid username and password, the user should be logged into the system
+  prerequisites: |
+    Conditions that must be met before running the test case.
+    For example: the login page is open
+  test-data: |
+    Test data
+    Username = ilona Password = password
+  steps:
+    - Enter the username
+    - Enter the password
+    - Click the "Login" button
+  expected-result: |
+    The user should be redirected to the homepage
+
+- summary: |
+    Checking user login with non-existing username and password
+  requirement: |
+    If an incorrect username or password is entered, the user should receive an error message
+  prerequisites: |
+    The login page is open
+  test-data: |
+    Username = hexlet Password = badpass
+  steps:
+    - Enter the username
+    - Enter the password
+    - Click the "Login" button
+  expected-result: |
+    The user should receive an error message

@@ -1,0 +1,10 @@
+functional:
+  - The website must be mobile-friendly
+  - The website must be tested for compatibility with the latest browser versions
+
+non-functional:
+  - The website must be developed with usability in mind and optimized for speed
+  - The website must be capable of handling high traffic (e.g., 1000 concurrent users)
+
+implicit:
+  - The website must be secure and protect user data
