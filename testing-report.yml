@@ -1,7 +1,4 @@
-- summary: |
-    Registration via Email
-  status: pass
-
+---
 - summary: |
     Registration via Github
   status: pass
@@ -34,8 +31,6 @@
     Creating a game without authorization
   status: pass
 
-- summary: |
-    Creating a game with an invalid name
 - summary: |
     Email validation
   status: fail
