@@ -1,0 +1,7 @@
+- summary: |
+    Verifying user login with an existing username and password
+  status: pass
+
+- summary: |
+    Verifying user login with an existing username and password
+  status: fail
